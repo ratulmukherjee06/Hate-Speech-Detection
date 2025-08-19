@@ -56,8 +56,8 @@ Hate-Speech-Detection/
 │
 ├── notebook/
 │   ├── 01_EDA.ipynb                 # Exploratory Data Analysis
-│   ├── 02_Text_Preprocessing.ipynb  # Cleaning and preparing text
-│   ├── 03_Vectorization.ipynb       # TF-IDF vectorization
+│   ├── 02_Preprocessing.ipynb  # Cleaning and preparing text
+│   ├── 03_Feature_Engineering.ipynb       # Feature Engineering
 │   ├── 04_Model_Training.ipynb      # Model training and testing
 │   └── 05_Evaluation_Visualization.ipynb  # Performance & visualization
 │
@@ -89,7 +89,7 @@ Hate-Speech-Detection/
 
 ## 📊 Model Performance (Random Forest)
 
-1. Accuracy: ~89.7%
+1. Accuracy: ~89.8%
 2. F1-Score (weighted): ~88%
 3. Best Performing Model: Random Forest Classifier
 
@@ -99,9 +99,9 @@ Confusion Matrix:
                Predicted
               0    1    2
            ----------------
-Actual  0 | 223   59    8
-        1 |  17 3782   33
-        2 |   1   19  815
+Actual  0 | 226   56    8
+        1 |  19 3781   32
+        2 |   1   22  812
 ```
 
 ### Confusion Matrix (Random Forest)
@@ -120,8 +120,4 @@ The pipeline is modular and reproducible, making it suitable for future integrat
 Ratul Mukherjee, 
 Data Science Intern, 
 📍 Kolkata, India, 
-<<<<<<< HEAD
 🔗 GitHub (https://github.com/ratulmukherjee06) | LinkedIn (https://www.linkedin.com/in/ratulmukherjee06/)
-=======
-🔗 GitHub (https://github.com/ratulmukherjee06) | LinkedIn (https://www.linkedin.com/in/ratulmukherjee06/)
->>>>>>> 17b0b51be1a033f77a45d56a3f7a96720f0b5999
