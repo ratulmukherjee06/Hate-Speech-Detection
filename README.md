@@ -55,10 +55,10 @@ Hate-Speech-Detection/
 │   └── best_model_rf.pkl            # Trained Random Forest model
 │
 ├── notebook/
-│   ├── 01_EDA.ipynb                 # Exploratory Data Analysis
-│   ├── 02_Preprocessing.ipynb  # Cleaning and preparing text
+│   ├── 01_EDA.ipynb                       # Exploratory Data Analysis
+│   ├── 02_Preprocessing.ipynb             # Cleaning and preparing text
 │   ├── 03_Feature_Engineering.ipynb       # Feature Engineering
-│   ├── 04_Model_Training.ipynb      # Model training and testing
+│   ├── 04_Model_Training.ipynb            # Model training and testing
 │   └── 05_Evaluation_Visualization.ipynb  # Performance & visualization
 │
 ├── images/
