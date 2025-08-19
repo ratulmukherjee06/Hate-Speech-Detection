@@ -1,4 +1,9 @@
-# 🛡️ Hate Speech Detection using Machine Learning
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Status](https://img.shields.io/badge/Project-Complete-brightgreen)
+![License](https://img.shields.io/badge/license-MIT-green)
+
+
+# 🛡️ Hate Speech Detection on Social Media using NLP + Machine Learning
 
 This project detects **Hate Speech**, **Offensive Language**, and **Neutral content** in tweets using Natural Language Processing and Machine Learning. It is built as a **Capstone Project** during a Data Science internship, with a focus on model interpretability, reproducibility, and presentation-ready insights.
 
@@ -39,31 +44,33 @@ Social media platforms like Twitter are often plagued by hate speech and offensi
 
 ---
 
-## 📁 Project Structure
+### 📁 Project Structure
 
+```
 Hate-Speech-Detection/
-│
 ├── data/
-│   ├── hate_speech.csv                    # Original raw dataset
-│   ├── cleaned_data.csv                   # Cleaned version of dataset
-│   ├── tfidf_vectorizer.pkl               # Saved TF-IDF vectorizer
-│   └── best_model_rf.pkl                  # Trained Random Forest model
+│   ├── hate_speech.csv              # Original raw dataset
+│   ├── cleaned_data.csv             # Cleaned version of dataset
+│   ├── tfidf_vectorizer.pkl         # Saved TF-IDF vectorizer
+│   └── best_model_rf.pkl            # Trained Random Forest model
 │
 ├── notebook/
-│   ├── 01_EDA.ipynb                       # Exploratory Data Analysis
-│   ├── 02_Text_Preprocessing.ipynb        # Cleaning and preparing text
-│   ├── 03_Vectorization.ipynb             # TF-IDF vectorization
-│   ├── 04_Model_Training.ipynb            # Model training and testing
-│   ├── 05_Evaluation_Visualization.ipynb  # Performance & visualization
+│   ├── 01_EDA.ipynb                 # Exploratory Data Analysis
+│   ├── 02_Text_Preprocessing.ipynb  # Cleaning and preparing text
+│   ├── 03_Vectorization.ipynb       # TF-IDF vectorization
+│   ├── 04_Model_Training.ipynb      # Model training and testing
+│   └── 05_Evaluation_Visualization.ipynb  # Performance & visualization
 │
 ├── images/
-│   └── plots/                             # Model performance visualizations
+│   └── plots/                       # Model performance visualizations
 │
 ├── scripts/
-│   └── hate_speech_pipeline.py            # Complete pipeline script
+│   └── hate_speech_pipeline.py     # Complete pipeline script
 │
-├── README.md                              # Project documentation
-└── requirements.txt                       # Environment dependencies
+├── README.md                        # Project documentation
+└── requirements.txt                 # Environment dependencies
+```
+
 
 ---
 
@@ -87,12 +94,17 @@ Hate-Speech-Detection/
 
 Confusion Matrix: 
 
+```
                Predicted
               0    1    2
            ----------------
-Actual  0 |  43  212   31
-        1 |  30 3667  141
-        2 |   1   95  737
+Actual  0 | 223   59    8
+        1 |  17 3782   33
+        2 |   1   19  815
+```
+
+### Confusion Matrix (Random Forest)
+![Confusion Matrix](images/confusion_matrix_rf.png)
 
 
 ## 💡 Conclusion
@@ -104,7 +116,7 @@ The pipeline is modular and reproducible, making it suitable for future integrat
 
 ## 👨‍💻 Author
 
-Ratul Mukherjee
-Data Science Intern
-📍 Kolkata, India
+Ratul Mukherjee, 
+Data Science Intern, 
+📍 Kolkata, India, 
 🔗 GitHub (https://github.com/ratulmukherjee06) | LinkedIn (https://www.linkedin.com/in/ratulmukherjee06/)
