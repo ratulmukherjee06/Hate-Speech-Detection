@@ -120,4 +120,8 @@ The pipeline is modular and reproducible, making it suitable for future integrat
 Ratul Mukherjee, 
 Data Science Intern, 
 📍 Kolkata, India, 
+<<<<<<< HEAD
 🔗 GitHub (https://github.com/ratulmukherjee06) | LinkedIn (https://www.linkedin.com/in/ratulmukherjee06/)
+=======
+🔗 GitHub (https://github.com/ratulmukherjee06) | LinkedIn (https://www.linkedin.com/in/ratulmukherjee06/)
+>>>>>>> 17b0b51be1a033f77a45d56a3f7a96720f0b5999
