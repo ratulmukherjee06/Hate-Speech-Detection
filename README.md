@@ -99,9 +99,9 @@ Confusion Matrix:
                Predicted
               0    1    2
            ----------------
-Actual  0 | 226   56    8
-        1 |  19 3781   32
-        2 |   1   22  812
+Actual  0 | 223   60    7
+        1 |  15 3788   29
+        2 |   1   24  810
 ```
 
 ### Confusion Matrix (Random Forest)
