@@ -89,8 +89,8 @@ Hate-Speech-Detection/
 
 ## 📊 Model Performance (Random Forest)
 
-1. Accuracy: ~89.8%
-2. F1-Score (weighted): ~88%
+1. Accuracy: ~97.2%
+2. F1-Score (weighted): ~97%
 3. Best Performing Model: Random Forest Classifier
 
 Confusion Matrix: 
